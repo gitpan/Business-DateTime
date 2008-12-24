@@ -7,9 +7,9 @@ use warnings;
 #use Data::Dumper;
 #$SIG{__DIE__} = sub { warn Dumper (\$@); };
 
-UB_Workflow::TestClass::BusinessDateTime->runtests();
+TestClass::Business::DateTime->runtests();
 ###########################################################################
-package UB_Workflow::TestClass::BusinessDateTime;
+package TestClass::Business::DateTime;
 
 use strict;
 use warnings;
@@ -371,11 +371,11 @@ sub add_seconds : Test(5) {
 
 =head1 NAME
 
-UB_Workflow::TestClass::BusinessDateTime
+TestClass::Business::DateTime
 
 =head1 DESCRIPTION
 
-Tests for UB_Workflow::TestClass::BusinessDateTime module.
+Tests for TestClass::Business::DateTime module.
 
 =head1 DATE
 
@@ -383,6 +383,6 @@ Tests for UB_Workflow::TestClass::BusinessDateTime module.
 
 =head1 AUTHOR
 
-rfs7
+STOCKS (stocks@cpan.org)
 
 =cut

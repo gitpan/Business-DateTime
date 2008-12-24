@@ -8,7 +8,7 @@ use Params::Validate;
 use Carp;
 use version;
 
-our $VERSION = "0.0.1";
+our $VERSION = "0.0.2";
 
 ###########################################################################
 # See POD for details
@@ -686,7 +686,7 @@ All 'add' functions MUST be given a positive value.
 
 =head1 AUTHOR
 
-rfs7
+STOCKS (stocks@cpan.org)
 
 =head1 DATE
 
