@@ -8,7 +8,7 @@ use Params::Validate;
 use Carp;
 use version;
 
-our $VERSION = "0.0.2";
+our $VERSION = "0.0.3";
 
 ###########################################################################
 # See POD for details
@@ -519,12 +519,12 @@ A module for business datetime addition.
      days  => 2,
  });
 
- # Display the start_date in mm/dd/yyyy hh:mm:ssam/pm format
+ # Display the current date in mm/dd/yyyy hh:mm:ssam/pm format
  print $biz_datetime->strftime();
 
 =head1 METHODS
 
-All 'add' functions MUST be given a positive value.
+All 'add' methods MUST be given a positive value!
 
 =head2 new()
 
