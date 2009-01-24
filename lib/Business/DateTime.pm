@@ -8,7 +8,7 @@ use Params::Validate;
 use Carp;
 use version;
 
-our $VERSION = "0.0.3";
+our $VERSION = "0.0.4";
 
 ###########################################################################
 # See POD for details
